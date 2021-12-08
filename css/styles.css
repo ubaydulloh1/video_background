@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+.background {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.container {
+  padding: 20px 0px;
+}
+
+header .header {
+  display: flex;
+  justify-content: space-between;
+}
+header .header a {
+  font-size: 30px;
+  text-decoration: none;
+  color: coral;
+}
+header .header ion-icon {
+  font-size: 30px;
+  color: coral;
+}
+
+.main-contents {
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  right: 0;
+  transition: 0.5s;
+}
+
+.icon-menu:hover {
+  cursor: pointer;
+}
+
+.section h2 {
+  margin-top: -20px;
+}
+
+ion-icon.social {
+  transition: 0.5s;
+}
+
+.button {
+  transition: 0.5s;
+  border-radius: 30px;
+}
+
+ion-icon.social:hover {
+  transform: scale(1.1) translateY(-10px);
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  top: 0px;
+  right: -300px;
+  position: absolute;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.6);
+  transition: 0.5s;
+}
+
+.menu-close-icon {
+  display: none;
+  right: 0px;
+  position: absolute;
+}
+
+.menu-close-icon:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */
